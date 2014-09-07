@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BC665719BC68F400BB70AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC665619BC68F400BB70AF /* main.swift */; };
+		23BC665919BC68F400BB70AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC665819BC68F400BB70AF /* ViewController.swift */; };
+		23BC665B19BC68F400BB70AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC665A19BC68F400BB70AF /* AppDelegate.swift */; };
+		23BC665D19BC68F400BB70AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BC665C19BC68F400BB70AF /* Images.xcassets */; };
+		23BC666019BC68F400BB70AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BC665E19BC68F400BB70AF /* Main.storyboard */; };
+		23BC666C19BC68F400BB70AF /* we_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC666B19BC68F400BB70AF /* we_finderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BC666619BC68F400BB70AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BC664919BC68F400BB70AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BC665019BC68F400BB70AF;
+			remoteInfo = "we-finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BC665119BC68F400BB70AF /* we-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "we-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BC665519BC68F400BB70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BC665619BC68F400BB70AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		23BC665819BC68F400BB70AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23BC665A19BC68F400BB70AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23BC665C19BC68F400BB70AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23BC665F19BC68F400BB70AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23BC666519BC68F400BB70AF /* we-finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "we-finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BC666A19BC68F400BB70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BC666B19BC68F400BB70AF /* we_finderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = we_finderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BC664E19BC68F400BB70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BC666219BC68F400BB70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BC664819BC68F400BB70AF = {
+			isa = PBXGroup;
+			children = (
+				23BC665319BC68F400BB70AF /* we-finder */,
+				23BC666819BC68F400BB70AF /* we-finderTests */,
+				23BC665219BC68F400BB70AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BC665219BC68F400BB70AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BC665119BC68F400BB70AF /* we-finder.app */,
+				23BC666519BC68F400BB70AF /* we-finderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BC665319BC68F400BB70AF /* we-finder */ = {
+			isa = PBXGroup;
+			children = (
+				23BC665819BC68F400BB70AF /* ViewController.swift */,
+				23BC665A19BC68F400BB70AF /* AppDelegate.swift */,
+				23BC665C19BC68F400BB70AF /* Images.xcassets */,
+				23BC665E19BC68F400BB70AF /* Main.storyboard */,
+				23BC665419BC68F400BB70AF /* Supporting Files */,
+			);
+			path = "we-finder";
+			sourceTree = "<group>";
+		};
+		23BC665419BC68F400BB70AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BC665519BC68F400BB70AF /* Info.plist */,
+				23BC665619BC68F400BB70AF /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23BC666819BC68F400BB70AF /* we-finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				23BC666B19BC68F400BB70AF /* we_finderTests.swift */,
+				23BC666919BC68F400BB70AF /* Supporting Files */,
+			);
+			path = "we-finderTests";
+			sourceTree = "<group>";
+		};
+		23BC666919BC68F400BB70AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BC666A19BC68F400BB70AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BC665019BC68F400BB70AF /* we-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BC666F19BC68F400BB70AF /* Build configuration list for PBXNativeTarget "we-finder" */;
+			buildPhases = (
+				23BC664D19BC68F400BB70AF /* Sources */,
+				23BC664E19BC68F400BB70AF /* Frameworks */,
+				23BC664F19BC68F400BB70AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "we-finder";
+			productName = "we-finder";
+			productReference = 23BC665119BC68F400BB70AF /* we-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BC666419BC68F400BB70AF /* we-finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BC667219BC68F400BB70AF /* Build configuration list for PBXNativeTarget "we-finderTests" */;
+			buildPhases = (
+				23BC666119BC68F400BB70AF /* Sources */,
+				23BC666219BC68F400BB70AF /* Frameworks */,
+				23BC666319BC68F400BB70AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BC666719BC68F400BB70AF /* PBXTargetDependency */,
+			);
+			name = "we-finderTests";
+			productName = "we-finderTests";
+			productReference = 23BC666519BC68F400BB70AF /* we-finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BC664919BC68F400BB70AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Stever4;
+				TargetAttributes = {
+					23BC665019BC68F400BB70AF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					23BC666419BC68F400BB70AF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 23BC665019BC68F400BB70AF;
+					};
+				};
+			};
+			buildConfigurationList = 23BC664C19BC68F400BB70AF /* Build configuration list for PBXProject "we-finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BC664819BC68F400BB70AF;
+			productRefGroup = 23BC665219BC68F400BB70AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BC665019BC68F400BB70AF /* we-finder */,
+				23BC666419BC68F400BB70AF /* we-finderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BC664F19BC68F400BB70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BC665D19BC68F400BB70AF /* Images.xcassets in Resources */,
+				23BC666019BC68F400BB70AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BC666319BC68F400BB70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BC664D19BC68F400BB70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BC665B19BC68F400BB70AF /* AppDelegate.swift in Sources */,
+				23BC665919BC68F400BB70AF /* ViewController.swift in Sources */,
+				23BC665719BC68F400BB70AF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BC666119BC68F400BB70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BC666C19BC68F400BB70AF /* we_finderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BC666719BC68F400BB70AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BC665019BC68F400BB70AF /* we-finder */;
+			targetProxy = 23BC666619BC68F400BB70AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23BC665E19BC68F400BB70AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BC665F19BC68F400BB70AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BC666D19BC68F400BB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23BC666E19BC68F400BB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23BC667019BC68F400BB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "we-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23BC667119BC68F400BB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "we-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23BC667319BC68F400BB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "we-finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/we-finder.app/Contents/MacOS/we-finder";
+			};
+			name = Debug;
+		};
+		23BC667419BC68F400BB70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "we-finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/we-finder.app/Contents/MacOS/we-finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BC664C19BC68F400BB70AF /* Build configuration list for PBXProject "we-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BC666D19BC68F400BB70AF /* Debug */,
+				23BC666E19BC68F400BB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BC666F19BC68F400BB70AF /* Build configuration list for PBXNativeTarget "we-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BC667019BC68F400BB70AF /* Debug */,
+				23BC667119BC68F400BB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23BC667219BC68F400BB70AF /* Build configuration list for PBXNativeTarget "we-finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BC667319BC68F400BB70AF /* Debug */,
+				23BC667419BC68F400BB70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BC664919BC68F400BB70AF /* Project object */;
+}
