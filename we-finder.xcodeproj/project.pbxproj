@@ -13,6 +13,10 @@
 		23BC665D19BC68F400BB70AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BC665C19BC68F400BB70AF /* Images.xcassets */; };
 		23BC666019BC68F400BB70AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BC665E19BC68F400BB70AF /* Main.storyboard */; };
 		23BC666C19BC68F400BB70AF /* we_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC666B19BC68F400BB70AF /* we_finderTests.swift */; };
+		23BC667619BC69EB00BB70AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BC667519BC69EB00BB70AF /* CoreLocation.framework */; };
+		23BC667819BC69EF00BB70AF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BC667719BC69EF00BB70AF /* WebKit.framework */; };
+		23BC667B19BC6C0F00BB70AF /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 23BC667A19BC6C0F00BB70AF /* bg.png */; };
+		23BC667D19BC6D4900BB70AF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 23BC667C19BC6D4900BB70AF /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 		23BC666519BC68F400BB70AF /* we-finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "we-finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BC666A19BC68F400BB70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BC666B19BC68F400BB70AF /* we_finderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = we_finderTests.swift; sourceTree = "<group>"; };
+		23BC667519BC69EB00BB70AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23BC667719BC69EF00BB70AF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		23BC667919BC69F700BB70AF /* we-finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "we-finder.entitlements"; sourceTree = "<group>"; };
+		23BC667A19BC6C0F00BB70AF /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		23BC667C19BC6D4900BB70AF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BC667819BC69EF00BB70AF /* WebKit.framework in Frameworks */,
+				23BC667619BC69EB00BB70AF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,8 @@
 		23BC664819BC68F400BB70AF = {
 			isa = PBXGroup;
 			children = (
+				23BC667719BC69EF00BB70AF /* WebKit.framework */,
+				23BC667519BC69EB00BB70AF /* CoreLocation.framework */,
 				23BC665319BC68F400BB70AF /* we-finder */,
 				23BC666819BC68F400BB70AF /* we-finderTests */,
 				23BC665219BC68F400BB70AF /* Products */,
@@ -77,6 +90,9 @@
 		23BC665319BC68F400BB70AF /* we-finder */ = {
 			isa = PBXGroup;
 			children = (
+				23BC667C19BC6D4900BB70AF /* logo.png */,
+				23BC667A19BC6C0F00BB70AF /* bg.png */,
+				23BC667919BC69F700BB70AF /* we-finder.entitlements */,
 				23BC665819BC68F400BB70AF /* ViewController.swift */,
 				23BC665A19BC68F400BB70AF /* AppDelegate.swift */,
 				23BC665C19BC68F400BB70AF /* Images.xcassets */,
@@ -161,6 +177,11 @@
 				TargetAttributes = {
 					23BC665019BC68F400BB70AF = {
 						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					23BC666419BC68F400BB70AF = {
 						CreatedOnToolsVersion = 6.0;
@@ -192,8 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BC667D19BC6D4900BB70AF /* logo.png in Resources */,
 				23BC665D19BC68F400BB70AF /* Images.xcassets in Resources */,
 				23BC666019BC68F400BB70AF /* Main.storyboard in Resources */,
+				23BC667B19BC6C0F00BB70AF /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "we-finder/we-finder.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "we-finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -339,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "we-finder/we-finder.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "we-finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
